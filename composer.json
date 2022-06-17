@@ -1,0 +1,14 @@
+{
+    
+    "require": {
+        "guzzlehttp/guzzle": "7.2"
+    },
+    "autoload": {
+        "files":[
+            "clases/class-pay-it-ath-endpoints.php",
+            "clases/class-pay-it-ath.php"
+        ]
+    }
+
+
+}
