@@ -1,4 +1,4 @@
-<h3>Ath Movil Settings</h3>
+<h3>ATH Movil Settings</h3>
 
 <div style="display:flex; flex-direction:row; ">
     <table width="40%">
@@ -6,8 +6,8 @@
             <th>Enviroment</th>
             <td>
                 <select id="varath_env" name="varath_env" style="min-width:100%; width:100%;">
-                    <option value="sandbox" <?= get_option('varath_env') == "sandbox" ? "checked" : "" ?>>Sandbox</option>
-                    <option value="production" <?= get_option('varath_env') == "production" ? "checked" : "" ?>>Production</option>
+                    <option value="sandbox" <?= get_option('varath_env') == "sandbox" ? "selected" : "" ?>>Sandbox</option>
+                    <option value="production" <?= get_option('varath_env') == "production" ? "selected" : "" ?>>Production</option>
                 </select>
             </td>
         </tr>
@@ -33,9 +33,9 @@
             <th>Theme</th>
             <td>
                 <select id="varath_theme" name="varath_theme" style="min-width:100%; width:100%;">
-                    <option value="btn" <?= get_option('varath_theme') == "btn" ? "checked" : "" ?>>btn</option>
-                    <option value="btn-dark" <?= get_option('varath_theme') == "btn-dark" ? "checked" : "" ?>>btn-dark</option>
-                    <option value="btn-light" <?= get_option('varath_theme') == "btn-light" ? "checked" : "" ?>>btn-light</option>
+                    <option value="btn" <?= get_option('varath_theme') == "btn" ? "selected" : "" ?>>btn</option>
+                    <option value="btn-dark" <?= get_option('varath_theme') == "btn-dark" ? "selected" : "" ?>>btn-dark</option>
+                    <option value="btn-light" <?= get_option('varath_theme') == "btn-light" ? "selected" : "" ?>>btn-light</option>
                 </select>
             </td>
         </tr>
@@ -51,7 +51,9 @@
 
     </table>
     <div style="width: 60%;">
-        <a href="https://bohiques.com" target="_blank"><img style="width: 300px;margin-left: auto;margin-right: auto;display: block;" src="<?= WP_PLUGIN_URL . "/pay-it-ath/templates/screenshot.png" ?>" /></a>
+        <a href="https://bohiques.com" target="_blank">
+            <img style="width: 300px;margin-left: auto;margin-right: auto;display: block;" src="<?= WP_PLUGIN_URL . "/pay-it-ath/templates/screenshot.png" ?>" />
+        </a>
     </div>
 </div>
 <div style="margin: 20px;">
